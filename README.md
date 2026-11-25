@@ -6,9 +6,7 @@ interface 提供存取。LLVM/OpenMP offloading 工具鏈放在獨立的子模�
 
 ## 成果影片
 
-[![Luckfox Near-Data 原型展示影片](https://img.youtube.com/vi/_pSeJz_LgJM/hqdefault.jpg)](https://github.com/RRbell1027/near_data/blob/main/docs/media/near-data-demo.mp4)
-
-[開啟 GitHub 影片](https://github.com/RRbell1027/near_data/blob/main/docs/media/near-data-demo.mp4) · [播放或下載原始 MP4](https://github.com/RRbell1027/near_data/raw/refs/heads/main/docs/media/near-data-demo.mp4) · [在 YouTube 觀看](https://youtu.be/_pSeJz_LgJM)
+[在 YT 觀看成果影片](https://youtu.be/_pSeJz_LgJM)
 
 展示畢業後以 Luckfox RV1106 與 SD 卡實作的近資料運算原型，包含 USB 通訊、
 OpenMP 工作卸載，以及裝置端直接讀取 SD 卡資料、執行運算並回傳結果的流程。
