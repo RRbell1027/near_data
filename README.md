@@ -4,6 +4,17 @@ Luckfox RV1106 的 Near-Data 原型：主機用 FIEMAP 取得檔案 extent，將
 經 `/dev/nd0` 與 USB ND function 傳到裝置。SD 同時由另一個 USB Mass Storage
 interface 提供存取。LLVM/OpenMP offloading 工具鏈放在獨立的子模組。
 
+## 成果影片
+
+[![Luckfox Near-Data 原型展示影片](https://img.youtube.com/vi/_pSeJz_LgJM/hqdefault.jpg)](https://youtu.be/_pSeJz_LgJM)
+
+[在 YouTube 觀看完整影片](https://youtu.be/_pSeJz_LgJM)
+
+展示畢業後以 Luckfox RV1106 與 SD 卡實作的近資料運算原型，包含 USB 通訊、
+OpenMP 工作卸載，以及裝置端直接讀取 SD 卡資料、執行運算並回傳結果的流程。
+此原型未實作 NAND Flash 管理，主要驗證編譯器、runtime 與驅動的整合及運算結果正確性。
+碩士論文使用的 OpenMP、OpenMPI 與 MA35D1 平台為另一階段的研究。
+
 ## 目錄
 
 | 路徑 | 用途 |
